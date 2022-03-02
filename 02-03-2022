@@ -1,0 +1,164 @@
+# import math
+# print(math.pow(math.log(5 + math.pow(math.sin(8), 2)), 1/6))
+#
+# liczba_szesnastkowa = 0x1f
+#
+# print('{0:x}'.format(liczba_szesnastkowa))
+
+
+# if warunek1:
+# - instrukcja lub blok instrukcji gdy warunek jest spełniony
+# elif warunek2:
+# - instrukcja lub blok instrukcji gdy warunek2 jest spełniony
+# else
+# - gdy warunki są niespełnione
+
+
+# a = 8
+# b = 8
+#
+# if a>b:
+#   print('liczba a jest wieksza od b')
+# elif a<b:
+#   print('liczba b jest wieksza od a')
+# else:
+#   print('liczby sa rowne')
+#
+# if a==b:
+#    print('liczby sa rowne')
+# else:
+#    print('liczby nie sa rowne')
+#
+#
+# print(a)
+# print(type(a))
+#
+# a=int(a)
+# print(a)
+#
+# a = input('Podaj pierwsza liczbe: ')
+# b = input('Podaj druga liczbe: ')
+# c = input('Podaj trzecia liczbe: ')
+# d = input('Podaj czwarta liczbe: ')
+#
+# a = int(a)
+# b = int(b)
+# c = int(c)
+# d = int(d)
+#
+# if(a>b) & (c>d):
+#     print('a jest wieksze od b i c jest wieksze od d')
+# else:
+#     print('a jest mniejsze od b lub c jest mniejsze od d')
+
+# for licznik in sekwencja:
+#     - instrukcja lub blok instrukcji
+#
+# else:
+#     -instrukcja lub instrukcje po zakończeniu pętli
+#
+# range(start, stop, step)
+# for (int i=0; i<1; i++)
+
+# for a in range(0, 11, 1):
+#     print(a)
+
+# lista=['cos', 4, 5, 6.5]
+#
+# for a in lista:
+#     print(a)
+# else:
+#     print('wyświetlono wszystkie elementy z listy')
+
+# while warunek:
+#     -instrukcja lub blok instrukcji będą się wykonywać dopóki warunek nie będzie spełniony
+
+# licznik = 0
+#
+# while licznik!=11:
+#     print(licznik)
+#     licznik+=1
+
+# lista=[4, 6, 7, 2, 1, 8, 9]
+# licznik=0
+# liczba= input('Wpisz liczbę całkowitą: ')
+#
+# while licznik!=len(lista):
+#     if int(liczba) - lista[licznik] == 0:
+#         print('Liczba ' + str(liczba) + ' - ' + str(lista[licznik]) + ' = 0')
+#         break
+#     else:
+#         licznik+=1
+# else:
+#     print('żadna z wartości nie dała odpowiedniego wyniku')
+
+# lista1 = [4, 5, 8, 1, 7, 2, 9]
+# lista2 = [5, 7, 4, 2]
+#
+# suma = []
+#
+# for a in lista1:
+#     for b in lista2:
+#         wynik = a + b
+#         suma.append(wynik)
+#     print(suma)
+
+# try:
+#     -instrukcje, które mogą zawierać błąd
+# except nazwa błędu
+#     -instrukcje po wykryciu błędu
+# except nazwa błędu 2
+#     -instrukcje po wykryciu błędu 2
+# else
+#  -wynik bez błędu
+
+# a = input("Podaj pierwszą liczbę: ")
+# b = input("Podaj drugą liczbę: ")
+#
+# try:
+#     a = int(a)
+#     b = int(b)
+#
+#     wynik = a/b
+#     print(wynik)
+# except ZeroDivisionError:
+#     print('Nie można dzielić przez 0')
+# except ValueError:
+#     print('Nie wczytano liczby całkowitej')
+
+# lista = ['a', 5, 5.6, [1, 2, 3]]
+# słownik = {klucz:wartość} //jeden element słownika
+# słownik[klucz]
+# słownik[nowy_klucz] = wartość dla nowego klucza
+#
+# append, insert, extend
+# pop, remove, del
+# sort, reverse
+
+
+# owoce = {
+# 	"Jabłko": 22,
+# 	"Cytryna": 14,
+# 	"Mandarynka": 4,
+# 	"Pomarańcza": 21
+# }
+#
+# owoce["Avocado"] = 10
+
+# lista = [2, 5, 7, 3, 2, 1]
+#
+# print(lista)
+#
+# usun = lista.pop(2) //usuwa 3 element tablicy
+#
+# print('Usunięte elementy: ', usun)
+# print('Nowa lista: ', lista)
+
+
+# lista = [2, 5, 7, 3, 2, 1]
+# 
+# print(lista)
+# 
+# lista.remove(2) #usuwa element z liczbą 2
+# 
+# print('Nowa lista: ', lista)
